@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-"github.com/tinywasm/model"
+"webtyp.com/model"
 )
 
 // FixtureBasic covers all primitive types, standard slices, and basic logic.

@@ -1,8 +1,8 @@
-module github.com/tinywasm/binary
+module webtyp.com/binary
 
 go 1.25.2
 
 require (
-	github.com/tinywasm/fmt v0.25.7
-	github.com/tinywasm/model v0.1.4
+	webtyp.com/fmt v0.25.7
+	webtyp.com/model v0.1.4
 )

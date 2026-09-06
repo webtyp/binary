@@ -19,7 +19,7 @@ For detailed performance comparisons against the standard library and the impact
 ## Installation
 
 ```bash
-go get github.com/tinywasm/binary
+go get webtyp.com/binary
 ```
 
 ## Quick Start
@@ -28,7 +28,7 @@ go get github.com/tinywasm/binary
 package main
 
 import (
-    "github.com/tinywasm/binary"
+    "webtyp.com/binary"
 )
 
 type User struct {

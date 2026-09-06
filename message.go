@@ -1,8 +1,8 @@
 package binary
 
-import "github.com/tinywasm/model"
+import "webtyp.com/model"
 
-import "github.com/tinywasm/fmt"
+import "webtyp.com/fmt"
 
 // Message is the standard inter-module communication envelope.
 // All pub/sub messages are encoded as Message before transmission.

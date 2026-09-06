@@ -1,4 +1,4 @@
-# Base 3: tinywasm/binary — Message Envelope
+# Base 3: webtyp/binary — Message Envelope
 
 ## Change: Add `Message` type
 
@@ -6,7 +6,7 @@
 // binary/message.go
 package binary
 
-import "github.com/tinywasm/fmt"
+import "webtyp.com/fmt"
 
 // Message is the standard inter-module communication envelope.
 // All pub/sub messages are encoded as Message before transmission.

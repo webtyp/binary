@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tinywasm/fmt"
-	"github.com/tinywasm/model"
+	"webtyp.com/fmt"
+	"webtyp.com/model"
 )
 
 // Encode encodes input to output.

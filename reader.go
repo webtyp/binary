@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/tinywasm/fmt"
+	"webtyp.com/fmt"
 )
 
 // MaxVarintLenN is the maximum length of a varint-encoded N-bit integer.

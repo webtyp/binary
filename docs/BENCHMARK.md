@@ -1,6 +1,6 @@
 # Benchmarks
 
-This document details the performance comparisons between `tinywasm/binary` (codec-based) and Go's standard `encoding/json`.
+This document details the performance comparisons between `webtyp/binary` (codec-based) and Go's standard `encoding/json`.
 
 ## Performance Summary
 

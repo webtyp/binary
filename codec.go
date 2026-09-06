@@ -1,7 +1,7 @@
 package binary
 
 import (
-	"github.com/tinywasm/model"
+	"webtyp.com/model"
 	"io"
 	"math"
 )

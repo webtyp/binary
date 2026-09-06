@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tinywasm/model"
+	"webtyp.com/model"
 )
 
 func TestCoverageGaps(t *testing.T) {

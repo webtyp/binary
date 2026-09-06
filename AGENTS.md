@@ -18,7 +18,7 @@ TinyBin is a high-performance binary serialization library for Go, optimized for
 
 ## Codec Contract
 
-The library follows the codec contract defined in `github.com/tinywasm/fmt`.
+The library follows the codec contract defined in `webtyp.com/fmt`.
 
 - `EncodeFields(w fmt.FieldWriter)`: Used for serializing objects.
 - `DecodeFields(r fmt.FieldReader) error`: Used for deserializing objects.

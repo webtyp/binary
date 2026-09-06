@@ -6,7 +6,7 @@ import (
 	"testing"
 	"unsafe"
 
-"github.com/tinywasm/model"
+"webtyp.com/model"
 )
 
 var testMsg = msg{

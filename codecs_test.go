@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tinywasm/model"
+	"webtyp.com/model"
 )
 
 // Message represents a message to be flushed
