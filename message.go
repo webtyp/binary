@@ -2,13 +2,13 @@ package binary
 
 import "webtyp.com/model"
 
-import "webtyp.com/fmt"
+import "webtyp.com/msgtype"
 
 // Message is the standard inter-module communication envelope.
 // All pub/sub messages are encoded as Message before transmission.
 type Message struct {
 	Topic   string          // routing key: "users.created", "auth.logout"
-	Type    fmt.MessageType // Use fmt.MessageType instead of local byte
+	Type    msgtype.Type
 	ID      uint32          // correlation ID for request/response pairs
 	Payload []byte          // binary-encoded body (domain-specific struct)
 }
@@ -27,7 +27,7 @@ func (m *Message) DecodeFields(r model.FieldReader) {
 		m.Topic = v
 	}
 	if t, ok := r.Int("Type"); ok {
-		m.Type = fmt.MessageType(t)
+		m.Type = msgtype.Type(t)
 	}
 	if id, ok := r.Int("ID"); ok {
 		m.ID = uint32(id)
